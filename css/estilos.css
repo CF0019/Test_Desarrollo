@@ -1,0 +1,48 @@
+/* selector universal: aplica la tipografia a toda la pagina */
+* {
+	font-family: Arial, sans-serif;
+}
+
+body {
+	background-color: #f4f4f2;
+	color: #222222;
+	margin: 0;
+	padding: 0 20px;
+}
+
+/* selector de etiqueta: afecta a todos los h2 de la pagina */
+h2 {
+	color: green;
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 5px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+ul {
+	padding-left: 25px;
+}
+
+li {
+	margin-bottom: 6px;
+}
+
+/* selector de clase: se usa en dos elementos de la lista de clubes */
+.destacado {
+	font-weight: bold;
+	color: rgb(178, 34, 34);
+}
+
+footer {
+	text-align: center;
+	font-size: 14px;
+	color: gray;
+	margin-top: 30px;
+}
